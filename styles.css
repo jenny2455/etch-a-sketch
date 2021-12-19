@@ -1,0 +1,64 @@
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#cell {
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+.large {
+    width: 42px;
+    height: 42px;
+}
+
+.small {
+    width: 20px;
+    height: 20px;
+}
+
+#container {
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 352px;
+    max-height: 352px;
+}
+
+#black {
+    color: white;
+    background-color: black;
+}
+
+#color {
+    color: pink;
+    background-color: blue;
+}
+
+#reset {
+    background-color: lightgreen;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
